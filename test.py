@@ -14,9 +14,9 @@ def execute(D, N, X, beta, tetha):
 
         SpeedUp = round(tiempoPy/tiempoCy, 3)
 
-        print("tiempo Py: {}\n".format(tiempoPy))
-        print("tiempo Cy: {}\n".format(tiempoCy))
-        print("SpeedUp: {}\n".format(SpeedUp))
+        print("tiempo Python: {}\n".format(tiempoPy))
+        print("tiempo Cython: {}\n".format(tiempoCy))
+        print("tiempo SpeedUp: {}\n".format(SpeedUp))
 
 N = 1500
 beta = np.random.rand(N)
