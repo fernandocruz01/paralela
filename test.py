@@ -22,10 +22,10 @@ N = 1500
 beta = np.random.rand(N)
 tetha = 10
 
-D = 6
+D = 5
 X = np.array([np.random.rand(N) for d in range(D)]).T
 execute(D, N, X, beta, tetha)
 
-D = 60
+D = 50
 X = np.array([np.random.rand(N) for d in range(D)]).T
 execute(D, N, X, beta, tetha)
