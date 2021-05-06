@@ -18,9 +18,9 @@ def execute(D, N, X, beta, tetha):
         print("tiempo Cython: {}\n".format(tiempoCy))
         print("tiempo SpeedUp: {}\n".format(SpeedUp))
 
-N = 1500
+N = 1700
 beta = np.random.rand(N)
-tetha = 10
+tetha = 15
 
 D = 5
 X = np.array([np.random.rand(N) for d in range(D)]).T
